@@ -1,0 +1,10 @@
+{
+	"id": "originel",
+	"date" : "240411",
+	"titre": "Original",
+	"wrong": "Le plan original pour [...]",
+	"right": "Le plan originel pour [...]",
+	"info": "<i>Original</i> signifie « Qui émane directement de », tandis qu'<b>originel</b> qualifie ce qui vient de l'origine.",
+	"add": "Pour désigner une musique qui a été reprise et modifiée pour créer des remixes, on de parlera de la version <b>originale</b>.",
+	"isnew": false
+}

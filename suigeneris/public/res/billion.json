@@ -1,0 +1,8 @@
+{
+	"id": "billion",
+	"date" : "240412",
+	"titre": "Billion",
+	"wrong": "un billion = one billion",
+	"right": "10<sup>6</sup> = un million = one million<br/>10<sup>12</sup> = un billion = one trillion<br/>10<sup>18</sup> = un trillion = one quintillion",
+	"isnew": false
+}
