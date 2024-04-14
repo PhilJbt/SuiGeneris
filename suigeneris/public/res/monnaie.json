@@ -1,8 +1,0 @@
-{
-	"id": "monnaie",
-	"date" : "240410",
-	"titre": "Monnaie",
-	"wrong": "20 $",
-	"right": "$20, US$20",
-	"isnew": false
-}

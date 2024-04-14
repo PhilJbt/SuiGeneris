@@ -1,0 +1,52 @@
+{
+    "nombres": {
+        "date": "240413",
+        "titre": "Les grands nombres",
+        "wrong": "1,000 ou 1.000",
+        "right": "1 000",
+        "info": "En <b>France</b>, le séparateur des milliers est l'espace insécable.",
+        "add": "En <i>Belgique</i>, c'est le point (ex: <i>1.000</i> pour un millier).</p><p>Au <i>Royaume-uni</i>, c'est la virgule (ex: <i>1,000</i> pour un millier).",
+        "isnew": true
+    },
+    "digital": {
+        "date": "240413",
+        "titre": "Digital",
+        "wrong": "digitale, digital",
+        "right": "numérique",
+        "info": "L’adjectif digital se réfère à ce qui appartient aux doigts. Numérique sera le terme à privilégier pour parler de l’industrie et du monde de l’informatique.",
+        "add": "Digital est un anglicisme utilisé par les agences de communication.",
+        "isnew": true
+    },
+    "monnaie": {
+        "date": "240410",
+        "titre": "Monnaie",
+        "wrong": "20 $",
+        "right": "$20, US$20",
+        "isnew": false
+    },
+    "chiffrer": {
+        "date": "240412",
+        "titre": "Crypter",
+        "wrong": "Crypter, cryptage, encrypter, déencrypter",
+        "right": "Chiffrer, déchiffrer",
+        "info": "Le terme <i>crypter</i> renvoie à la notion d'obfusquer une donnée sans être en mesure de la déchiffrer par la suite. C'est la raison pour laquelle <i>cryptage</i> et ses dérivés sont jugés impropres. L'on préfère utiliser les termes <b>chiffrer</b>, <b>chiffrage</b> et <b>déchiffrage</b>.",
+        "add": "<i>Encrypter</i> et <i>déencrypter</i> sont des anglicismes.",
+        "isnew": false
+    },
+    "billion": {
+        "date": "240412",
+        "titre": "Billion",
+        "wrong": "un billion = one billion",
+        "right": "10<sup>6</sup> = un million = one million<br/>10<sup>12</sup> = un billion = one trillion<br/>10<sup>18</sup> = un trillion = one quintillion",
+        "isnew": false
+    },
+    "originel": {
+        "date": "240411",
+        "titre": "Original",
+        "wrong": "Le plan original pour [...]",
+        "right": "Le plan originel pour [...]",
+        "info": "<i>Original</i> signifie « Qui émane directement de », tandis qu'<b>originel</b> qualifie ce qui vient de l'origine.",
+        "add": "Pour désigner une musique qui a été reprise et modifiée pour créer des remixes, on de parlera de la version <b>originale</b>.",
+        "isnew": false
+    }
+}
