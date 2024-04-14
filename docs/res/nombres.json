@@ -1,0 +1,10 @@
+{
+	"id": "nombres",
+	"date" : "240413",
+	"titre": "Les grands nombres",
+	"wrong": "1,000 ou 1.000",
+	"right": "1 000",
+	"info": "En <b>France</b>, le séparateur des milliers est l'espace insécable.",
+	"add": "En <i>Belgique</i>, c'est le point (ex: <i>1.000</i> pour un millier).</p><p>Au <i>Royaume-uni</i>, c'est la virgule (ex: <i>1,000</i> pour un millier).",
+	"isnew": true
+}
