@@ -4,8 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
-    <script type="module" crossorigin src="./assets/index-C0kzQEcE.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-BIeL1frx.css">
+    <style>
+      
+@keyframes anmSelected {
+  0% {
+    background-position: initial;
+  }
+  100% {
+    background-position: 50px 0px;
+  }
+}
+
+:target {
+    background: repeating-linear-gradient(9deg, rgba(255,255,255,0.05) 0%, rgba(255, 255, 255, 0.15) 100%) !important;
+    background-size: 50px 50px;
+    animation: anmSelected 10s linear infinite;
+}
+
+    </style>
+    <script type="module" crossorigin src="./assets/index-CFNm7evd.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CjEvj7Ze.css">
   </head>
   <body>
     <div id="root"></div>
