@@ -2,7 +2,10 @@
 import * as React from 'react';
 import fs from 'fs'
 import Card from '@mui/material/Card';
-import Grid from '@mui/material/Unstable_Grid2';
+import Box from '@mui/material/Box';
+import Paper from '@mui/material/Paper';
+import Grid from '@mui/material/Grid';
+import { styled } from '@mui/material/styles';
 
 import sgCard from './sgcard';
 
@@ -22,17 +25,19 @@ const sgCards = () => {
         return parseFloat(b.date) - parseFloat(a.date);
     });
 
-    let populateCards = dictArticles.map(function(item) {
+    let populateCards = dictArticles.map(function(elem) {
         return (
-            <Grid xs={6} key={btoa(item.id)}>
-                <Card>{sgCard(item)}</Card>
+            <Grid item xs={6} key={btoa(elem.id)}>
+                {sgCard(elem)}
             </Grid>
         );
     });      
 
     return (
         <React.Fragment>
-            {populateCards}
+            <Grid container spacing={2} alignItems="stretch">
+                {populateCards}
+            </Grid>
         </React.Fragment>
       );
 };

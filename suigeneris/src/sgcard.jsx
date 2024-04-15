@@ -30,7 +30,7 @@ const DivInfo = styled('div')(({ theme }) => ({
 }));
 
 function formatInfo(content) {
-  if (itemExists(content))
+  if (elemExists(content))
     return (
       <DivInfo dangerouslySetInnerHTML={{__html: content}} />
     );
@@ -41,7 +41,7 @@ const DivAdd = styled('div')(({ theme }) => ({
 }));
 
 function formatAdd(content) {
-  if (itemExists(content))
+  if (elemExists(content))
     return (
       <React.Fragment>
         <Divider sx={{ my: 1 }} />
@@ -50,67 +50,60 @@ function formatAdd(content) {
     );
 }
 
-function itemExists(content) {
+function elemExists(content) {
   return typeof(content) !== "undefined"
     && (content || "").length > 0;
 }
 
 
 
-const sgCard = (item) => (
+const sgCard = (elem) => (
   <React.Fragment>
-    <Paper elevation={3} > {/* variant="outlined" */}
-      <Card id={item.id}>
-        <CardContent>
-          <Box sx={{ p: 1 }}>
-            <Typography variant="h5" component="div">
-              { item.titre }
-              { item.isnew ? (
-                // <NewReleasesTwoToneIcon sx={{ color: newIconColor, ml: 1 }} />
-                <Chip label="Nouveau" size="small" sx={{ color: linkIconColor, ml: 1 }} />
-              ) : (null)}
-            </Typography>
-          </Box>
-          <Divider />
-          <Stack sx={{ width: '100%', mt: 1 }} spacing={1}>
-            { itemExists(item.wrong) ? (
-              <Alert icon={<NotInterestedIcon />} sx={{ fontWeight: 'bold' }} severity="error">
-                <span dangerouslySetInnerHTML={{__html: item.wrong}} />
-              </Alert>
-            ) : (null)}
-            { itemExists(item.right) ? (
-              <Alert icon={<CheckIcon />} sx={{ fontWeight: 'bold' }} severity="success">
-                <span dangerouslySetInnerHTML={{__html: item.right}} />
-              </Alert>
-            ) : (null)}
-          </Stack>
-          <Box sx={
-            {
-              p: (itemExists(item.info) && itemExists(item.add) ? 1 : 0),
-              mt: 1
-            }}>
-            {/* <Typography variant="body1" component="div">
-              { item.info }
-            </Typography>
-            <Typography variant="body2" component="div">
-              { item.add }
-            </Typography> */}
-            { formatInfo(item.info) }
-            { formatAdd(item.add) }
-          </Box>
-        </CardContent>
-        <IconButton href={'#' + item.id} id={'btn_' + item.id} sx={{ float: 'right', color: linkIconColor, ml: 1 }} >
+    <Card id={elem.id} className="cont-highlight" elevation={2}>
+      <CardContent>
+        <IconButton href={'#' + elem.id} id={'btn_' + elem.id} sx={{ float: 'right', color: linkIconColor, ml: 1 }} >
           <LinkIcon />
         </IconButton>
-      </Card>
-    </Paper>
+        <Box sx={{ p: 1 }}>
+          <Typography variant="h5" component="div">
+            { elem.titre }
+            { elem.isnew ? (
+              // <NewReleasesTwoToneIcon sx={{ color: newIconColor, ml: 1 }} />
+              <Chip label="Nouveau" size="small" sx={{ color: linkIconColor, ml: 1 }} />
+            ) : (null)}
+          </Typography>
+        </Box>
+        <Divider />
+        <Stack sx={{ width: '100%', mt: 1 }} spacing={1}>
+          { elemExists(elem.wrong) ? (
+            <Alert icon={<NotInterestedIcon />} sx={{ fontWeight: 'bold' }} severity="error">
+              <span dangerouslySetInnerHTML={{__html: elem.wrong}} />
+            </Alert>
+          ) : (null)}
+          { elemExists(elem.right) ? (
+            <Alert icon={<CheckIcon />} sx={{ fontWeight: 'bold' }} severity="success">
+              <span dangerouslySetInnerHTML={{__html: elem.right}} />
+            </Alert>
+          ) : (null)}
+        </Stack>
+        <Box sx={
+          {
+            p: (elemExists(elem.info) && elemExists(elem.add) ? 1 : 0),
+            mt: 1
+          }}>
+          {/* <Typography variant="body1" component="div">
+            { elem.info }
+          </Typography>
+          <Typography variant="body2" component="div">
+            { elem.add }
+          </Typography> */}
+          { formatInfo(elem.info) }
+          { formatAdd(elem.add) }
+        </Box>
+      </CardContent>
+    </Card>
   </React.Fragment>
 );
 
-sgCard.defaultProps = {
-  titre: "title",
-  content: "content",
-  isnew: false,
-}
 
 export default sgCard;
