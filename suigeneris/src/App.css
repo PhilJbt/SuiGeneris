@@ -4,22 +4,17 @@ body {
   overflow-x: hidden;
 }
 
-@keyframes move-it {
+@keyframes anmSelected {
   0% {
     background-position: initial;
   }
   100% {
-    background-position: 100px 0px;
+    background-position: 50px 0px;
   }
 }
-:target {
-    background: repeating-linear-gradient(
-      45deg,
-      #1a1a1a,
-      #1a1a1a 5%,
-      #1c3f5b 5%,
-      #1c3f5b 10%
-    ) !important;
-    background-size: 100px 100px;
-    animation: move-it 10s linear infinite;
+
+:target, .slc {
+    background: repeating-linear-gradient(9deg, rgba(255,255,255,0.05) 0%, rgba(255, 255, 255, 0.15) 100%) !important;
+    background-size: 50px 50px;
+    animation: anmSelected 10s linear infinite;
 }

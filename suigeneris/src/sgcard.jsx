@@ -99,7 +99,7 @@ const sgCard = (item) => (
             { formatAdd(item.add) }
           </Box>
         </CardContent>
-        <IconButton href={'#' + item.id} sx={{ float: 'right', color: linkIconColor, ml: 1 }} >
+        <IconButton href={'#' + item.id} id={'btn_' + item.id} sx={{ float: 'right', color: linkIconColor, ml: 1 }} >
           <LinkIcon />
         </IconButton>
       </Card>

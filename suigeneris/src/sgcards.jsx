@@ -24,7 +24,7 @@ const sgCards = () => {
 
     let populateCards = dictArticles.map(function(item) {
         return (
-            <Grid xs={6} key={item.id}>
+            <Grid xs={6} key={btoa(item.id)}>
                 <Card>{sgCard(item)}</Card>
             </Grid>
         );
