@@ -1,25 +1,34 @@
 {
+    "dates": {
+        "date": "240415",
+        "titre": "Les dates",
+        "wrong": "jj-mm-aaaa aaaa/mm/jj",
+        "right": "jj/mm/aaaa",
+        "info": "Comme bon nombre des pays de l’Europe de l'ouest (Royaume-Uni inclus), la <ctx>France</ctx> utilise le format <rgt>jj/mm/aaaa</rgt>.",
+        "add": "Les Etats-Unis et le Canada : <wrg>mm-jj-aaaa</wrg><br/>Le Canada francophone : <wrg>jj-mm-aaaa</wrg><br/>La Chine et la Corée : <wrg>mm/jj/aaaa</wrg><br/>Hong Kong : <wrg>aaaa-mm-jj</wrg>",
+        "isnew": true
+    },
     "nombres": {
         "date": "240412",
         "titre": "Les grands nombres",
         "wrong": "1,000 ou 1.000",
         "right": "1 000",
         "info": "En <ctx>France</ctx>, le séparateur des milliers est l'<rgt>espace insécable</rgt>.",
-        "add": "En Belgique, c'est le point (ex: 1.000 pour un millier).<br/>Au Royaume-uni, c'est la virgule (ex: 1,000 pour un millier).",
-        "isnew": true
+        "add": "En Belgique, c'est le point (ex: <wrg>1.000</wrg> pour un millier).<br/>Au Royaume-uni, c'est la virgule (ex: <wrg>1,000</wrg> pour un millier).",
+        "isnew": false
     },
     "digital": {
         "date": "240412",
-        "titre": "Digital",
+        "titre": "Digital / Numérique",
         "wrong": "digitale, digital",
         "right": "numérique",
         "info": "<rgt>Numérique</rgt> est le terme à privilégier pour parler du monde de l'informatique ou des nouvelles technologies.",
-        "add": "L'adjectif digital se réfère à ce qui appartient aux doigts. C'est un anglicisme utilisé par les agences de communication.",
-        "isnew": true
+        "add": "L'adjectif <wrg>digital</wrg> se réfère à ce qui appartient aux doigts. C'est un anglicisme utilisé par les agences de communication.",
+        "isnew": false
     },
     "chiffrer": {
         "date": "240411",
-        "titre": "Crypter",
+        "titre": "Crypter / Chiffrer",
         "wrong": "Crypter, cryptage, encrypter, déencrypter",
         "right": "Chiffrer, déchiffrer",
         "info": "L'on préfère utiliser le terme <rgt>chiffrer</rgt> et ses déclinaisons.",
@@ -28,7 +37,7 @@
     },
     "originel": {
         "date": "240411",
-        "titre": "Original",
+        "titre": "Original / Originel",
         "wrong": "Il retrouvera son état original [...]",
         "right": "Il retrouvera son état originel [...]",
         "info": "Le terme <rgt>originel</rgt> qualifie ce qui vient de l'<ctx>origine</ctx>, de la <ctx>source</ctx>, qui est <ctx>premier</ctx>. Pour désigner une musique qui a été reprise et modifiée pour créer des remixes, on de parlera de la version <rgt>originelle</rgt>.",
@@ -40,13 +49,16 @@
         "titre": "Billion",
         "wrong": "un billion = one billion",
         "right": "10<sup>12</sup> = un billion = one trillion<br/>10<sup>18</sup> = un trillion = one quintillion",
+        "add" : "Dans la langue anglaise courante, un milliard (1 000 000 000) est généralement appelé one billion. Ce qui peut entraîner une confusion avec d'autres langues, dont le français, pour lesquelles un billion signifie un million de millions, soit mille milliards.",
         "isnew": false
     },
     "monnaie": {
         "date": "240410",
         "titre": "Monnaie",
-        "wrong": "20 $",
-        "right": "$20, US$20",
+        "wrong": "€20 ou 20€",
+        "right": "20 € ou 20 EUR",
+        "info": "En français, le code EUR (ou le signe €) se place après le chiffre, dont il est séparé par une espace.",
+        "add": "En anglais, en revanche, le signe se place avant le chiffre et sans espace : $20 ou US$20 pour spécifier le dollar américain.",
         "isnew": false
     }
 }
