@@ -7,15 +7,25 @@ import Typography from '@mui/material/Typography';
 import Divider from '@mui/material/Divider';
 import { styled } from '@mui/material/styles';
 import IconButton from '@mui/material/IconButton';
-import NewReleasesTwoToneIcon from '@mui/icons-material/NewReleasesTwoTone';
 import Stack from '@mui/material/Stack';
 import Alert from '@mui/material/Alert';
+import NewReleasesTwoToneIcon from '@mui/icons-material/NewReleasesTwoTone';
 import CheckIcon from '@mui/icons-material/Check';
 import NotInterestedIcon from '@mui/icons-material/NotInterested';
 import LinkIcon from '@mui/icons-material/Link';
 import InfoIcon from '@mui/icons-material/Info';
+import ControlPointIcon from '@mui/icons-material/ControlPoint';
+import BookmarkAddIcon from '@mui/icons-material/BookmarkAdd';
+import GradeIcon from '@mui/icons-material/Grade';
+import SellIcon from '@mui/icons-material/Sell';
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import ArrowForwardIosSharpIcon from '@mui/icons-material/ArrowForwardIosSharp';
+import PushPinIcon from '@mui/icons-material/PushPin';
 import Badge from '@mui/material/Badge';
 import Chip from '@mui/material/Chip';
+import Accordion from '@mui/material/Accordion';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import MuiAccordionSummary from '@mui/material/AccordionSummary';
 import { blue } from '@mui/material/colors';
 import { grey } from '@mui/material/colors';
 import Paper from '@mui/material/Paper';
@@ -32,7 +42,7 @@ const DivInfo = styled('div')(({ theme }) => ({
 function formatInfo(content) {
   if (elemExists(content))
     return (
-      <DivInfo dangerouslySetInnerHTML={{__html: content}} />
+      <DivInfo sx={{ mb: 2 }} dangerouslySetInnerHTML={{__html: content}} />
     );
 }
 
@@ -40,12 +50,48 @@ const DivAdd = styled('div')(({ theme }) => ({
   ...theme.typography.body2,
 }));
 
-function formatAdd(content) {
-  if (elemExists(content))
+const AccordionSummary = styled((props) => (
+  <MuiAccordionSummary
+    expandIcon={<ArrowForwardIosSharpIcon />}
+    {...props}
+  />
+))(({ theme }) => ({
+  backgroundColor:
+    theme.palette.mode === 'dark'
+      ? 'rgba(255, 255, 255, .05)'
+      : 'rgba(0, 0, 0, .03)',
+  flexDirection: 'row-reverse',
+  '& .MuiAccordionSummary-expandIconWrapper.Mui-expanded': {
+    transform: 'rotate(0deg)',
+  },
+  '& .MuiAccordionSummary-expandIconWrapper': {
+    transform: 'rotate(-90deg)',
+  },
+}));
+
+function formatAdd(elem) {
+  if (elemExists(elem.add))
     return (
       <React.Fragment>
-        <Divider sx={{ my: 1 }} />
-        <DivAdd dangerouslySetInnerHTML={{__html: content}} />
+        {/* { elemExists(elem.divider) ? (    
+          <Divider sx={{ my: 1 }} variant="middle" className="sepText" ><Chip label={elem.divider} size="small" /></Divider>
+        ) : (
+          <Divider sx={{ my: 1 }} variant="middle" />
+        )} */}
+        {/* <DivAdd dangerouslySetInnerHTML={{__html: elem.add}} /> */}
+        <Accordion sx={{ mt: 1 }} elevation={0}>
+          <AccordionSummary
+            expandIcon={<ArrowDropDownIcon  />}
+            aria-controls={"pnl_" + elem.id}
+            id={"pnl_" + elem.id}
+          >
+          <Typography sx={{ color: 'text.secondary' }}>{(elem.divider || "Plus en détail")}</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography dangerouslySetInnerHTML={{__html: elem.add}}>
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
       </React.Fragment>
     );
 }
@@ -69,7 +115,7 @@ const sgCard = (elem) => (
             { elem.titre }
             { elem.isnew ? (
               // <NewReleasesTwoToneIcon sx={{ color: newIconColor, ml: 1 }} />
-              <Chip label="Nouveau" size="small" sx={{ color: linkIconColor, ml: 1 }} />
+              <Chip label="Nouveau" color="info" variant="outlined" icon={<BookmarkAddIcon />} sx={{ ml: 1 }} />
             ) : (null)}
           </Typography>
         </Box>
@@ -98,7 +144,7 @@ const sgCard = (elem) => (
             { elem.add }
           </Typography> */}
           { formatInfo(elem.info) }
-          { formatAdd(elem.add) }
+          { formatAdd(elem) }
         </Box>
       </CardContent>
     </Card>

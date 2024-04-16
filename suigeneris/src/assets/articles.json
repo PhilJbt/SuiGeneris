@@ -4,7 +4,8 @@
         "titre": "Les dates",
         "wrong": "jj-mm-aaaa aaaa/mm/jj",
         "right": "jj/mm/aaaa",
-        "info": "Comme bon nombre des pays de l’Europe de l'ouest (Royaume-Uni inclus), la <ctx>France</ctx> utilise le format <rgt>jj/mm/aaaa</rgt>.",
+        "info": "Comme bon nombre des pays de l'Europe de l'ouest (Royaume-Uni inclus), la <ctx>France</ctx> utilise le format <rgt>jj/mm/aaaa</rgt>.",
+        "divider": "Exemples d'autres formats",
         "add": "Les Etats-Unis et le Canada : <wrg>mm-jj-aaaa</wrg><br/>Le Canada francophone : <wrg>jj-mm-aaaa</wrg><br/>La Chine et la Corée : <wrg>mm/jj/aaaa</wrg><br/>Hong Kong : <wrg>aaaa-mm-jj</wrg>",
         "isnew": true
     },
@@ -14,6 +15,7 @@
         "wrong": "1,000 ou 1.000",
         "right": "1 000",
         "info": "En <ctx>France</ctx>, le séparateur des milliers est l'<rgt>espace insécable</rgt>.",
+        "divider": "Exemples d'autres conventions",
         "add": "En Belgique, c'est le point (ex: <wrg>1.000</wrg> pour un millier).<br/>Au Royaume-uni, c'est la virgule (ex: <wrg>1,000</wrg> pour un millier).",
         "isnew": false
     },
@@ -41,7 +43,7 @@
         "wrong": "Il retrouvera son état original [...]",
         "right": "Il retrouvera son état originel [...]",
         "info": "Le terme <rgt>originel</rgt> qualifie ce qui vient de l'<ctx>origine</ctx>, de la <ctx>source</ctx>, qui est <ctx>premier</ctx>. Pour désigner une musique qui a été reprise et modifiée pour créer des remixes, on de parlera de la version <rgt>originelle</rgt>.",
-        "add": "<wrg>Original</wrg> s’oppose à la copie, à la reproduction ou à l’imitation, comme pour un tableau, ou un document administratif ou juridique. L’original est ce qui est authentique.",
+        "add": "<wrg>Original</wrg> s'oppose à la copie, à la reproduction ou à l'imitation, comme pour un tableau, ou un document administratif ou juridique. L'original est ce qui est authentique.",
         "isnew": false
     },
     "billion": {
