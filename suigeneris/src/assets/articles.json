@@ -1,4 +1,11 @@
 {
+    "chafouin": {
+        "date": "240417",
+        "titre": "Chafouin",
+        "wrong": "Regarde comme il est chafouin, ta réflexion l'a agacé.",
+        "info": "<b>Chafouin</b> ne signifie pas être (ou sembler) de <wrg>mauvaise humeur</wrg> ou <wrg>grognon</wrg>. Il est un synonyme de <rgt>fourbe</rgt>, <rgt>sournois</rgt> et <rgt>rusé</rgt>.",
+        "isnew": false
+    },
     "dates": {
         "date": "240415",
         "titre": "Les dates",
@@ -7,7 +14,7 @@
         "info": "Comme bon nombre des pays de l'Europe de l'ouest (Royaume-Uni inclus), la <ctx>France</ctx> utilise le format <rgt>jj/mm/aaaa</rgt>.",
         "divider": "Exemples d'autres formats",
         "add": "Les Etats-Unis et le Canada : <wrg>mm-jj-aaaa</wrg><br/>Le Canada francophone : <wrg>jj-mm-aaaa</wrg><br/>La Chine et la Corée : <wrg>mm/jj/aaaa</wrg><br/>Hong Kong : <wrg>aaaa-mm-jj</wrg>",
-        "isnew": true
+        "isnew": false
     },
     "nombres": {
         "date": "240412",
