@@ -1,5 +1,13 @@
 {
     "chafouin": {
+        "date": "240422",
+        "titre": "Moi et [...]",
+        "wrong": "Moi et mes amis [...]",
+        "right": "Mes amis et moi [...]",
+        "info": "En français, La politesse veut que l’<ctx>on implique autrui en premier</ctx>. Dans une énumération de personnes, le locuteur se cite donc toujours en dernier.",
+        "isnew": true
+    },
+    "chafouin": {
         "date": "240417",
         "titre": "Chafouin",
         "wrong": "Regarde comme il est chafouin, ta réflexion l'a agacé.",
