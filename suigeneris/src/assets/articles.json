@@ -1,17 +1,26 @@
 {
+    "qualitatif": {
+        "date": "240429",
+        "titre": "Qualitatif",
+        "wrong": "La conception de ce smartphone est qualitative.",
+        "right": "La conception de ce smartphone est d'une grande qualité.",
+        "info": "Pour exprimer une qualité supérieur à la moyenne, l'on parlera de <rgt_qm>première qualité</rgt_qm>, de <rgt_qm>qualité de premier ordre</rgt_qm> ou tout simplement de quelque chose <rgt_qm>de qualité</rgt_qm>.",
+        "add": "L'adjectif <i>qualitatif</i> se contente de décrire ce qui est lié à la qualité &mdash; en opposition au terme <i>quantitatif</i>, <ctx>qu'elle soit positive ou négative</ctx>.",
+        "isnew": true
+    },
     "moi_et": {
         "date": "240422",
         "titre": "Moi et [...]",
         "wrong": "Moi et mes amis [...]",
         "right": "Mes amis et moi [...]",
-        "info": "En français, la politesse veut que l’<ctx>on implique autrui en premier</ctx>. Dans une énumération de personnes, le locuteur se cite donc toujours en dernier.",
-        "isnew": true
+        "info": "En français, la politesse veut que l'<ctx>on implique autrui en premier</ctx>. Dans une énumération de personnes, <rgt>le locuteur se cite donc toujours en dernier</rgt>.",
+        "isnew": false
     },
     "chafouin": {
         "date": "240417",
         "titre": "Chafouin",
         "wrong": "Regarde comme il est chafouin, ta réflexion l'a agacé.",
-        "info": "<b>Chafouin</b> ne signifie pas être (ou sembler) de <wrg>mauvaise humeur</wrg> ou <wrg>grognon</wrg>. Il est un synonyme de <rgt>fourbe</rgt>, <rgt>sournois</rgt> et <rgt>rusé</rgt>.",
+        "info": "<b>Chafouin</b> ne signifie pas être (ou sembler) de <wrg>mauvaise humeur</wrg> ou <wrg>grognon</wrg>. Il est un synonyme de <rgt_qm>fourbe</rgt_qm>, <rgt_qm>sournois</rgt_qm> et <rgt_qm>rusé</rgt_qm>.",
         "isnew": false
     },
     "dates": {
@@ -29,7 +38,7 @@
         "titre": "Les grands nombres",
         "wrong": "1,000 ou 1.000",
         "right": "1 000",
-        "info": "En <ctx>France</ctx>, le séparateur des milliers est l'<rgt>espace insécable</rgt>.",
+        "info": "En <ctx>France</ctx>, le séparateur des milliers est l'<rgt_qm_qm>espace insécable</rgt_qm_qm>.",
         "divider": "Exemples d'autres conventions",
         "add": "En Belgique, c'est le point (ex: <wrg>1.000</wrg> pour un millier).<br/>Au Royaume-uni, c'est la virgule (ex: <wrg>1,000</wrg> pour un millier).",
         "isnew": false
@@ -39,7 +48,7 @@
         "titre": "Digital / Numérique",
         "wrong": "digitale, digital",
         "right": "numérique",
-        "info": "<rgt>Numérique</rgt> est le terme à privilégier pour parler du monde de l'informatique ou des nouvelles technologies.",
+        "info": "<rgt_qm>Numérique</rgt_qm> est le terme à privilégier pour parler du monde de l'informatique ou des nouvelles technologies.",
         "add": "L'adjectif <wrg>digital</wrg> se réfère à ce qui appartient aux doigts. C'est un anglicisme utilisé par les agences de communication.",
         "isnew": false
     },
@@ -48,7 +57,7 @@
         "titre": "Crypter / Chiffrer",
         "wrong": "Crypter, cryptage, encrypter, déencrypter",
         "right": "Chiffrer, déchiffrer",
-        "info": "L'on préfère utiliser le terme <rgt>chiffrer</rgt> et ses déclinaisons.",
+        "info": "L'on préfère utiliser le terme <rgt_qm>chiffrer</rgt_qm> et ses déclinaisons.",
         "add": "Le terme <wrg>crypter</wrg> renvoie à la notion d'obfusquer une donnée sans être en mesure de la déchiffrer par la suite. C'est la raison pour laquelle <wrg>cryptage</wrg> et ses dérivés sont généralement jugés impropres.<br/><wrg>Encrypter</wrg> et <wrg>déencrypter</wrg> sont des anglicismes.",
         "isnew": false
     },
@@ -57,7 +66,7 @@
         "titre": "Original / Originel",
         "wrong": "Il retrouvera son état original [...]",
         "right": "Il retrouvera son état originel [...]",
-        "info": "Le terme <rgt>originel</rgt> qualifie ce qui vient de l'<ctx>origine</ctx>, de la <ctx>source</ctx>, qui est <ctx>premier</ctx>. Pour désigner une musique qui a été reprise et modifiée pour créer des remixes, on de parlera de la version <rgt>originelle</rgt>.",
+        "info": "Le terme <rgt_qm>originel</rgt_qm> qualifie ce qui vient de l'<ctx>origine</ctx>, de la <ctx>source</ctx>, qui est <ctx>premier</ctx>. Pour désigner une musique qui a été reprise et modifiée pour créer des remixes, on de parlera de la version <rgt_qm>originelle</rgt_qm>.",
         "add": "<wrg>Original</wrg> s'oppose à la copie, à la reproduction ou à l'imitation, comme pour un tableau, ou un document administratif ou juridique. L'original est ce qui est authentique.",
         "isnew": false
     },

@@ -104,16 +104,34 @@ wrg {
 /* context du terme correct */
 ctx {
   font-weight: bold;
-  text-decoration: underline dotted;
+  text-decoration: underline dashed;
+  text-underline-offset: 3px;
 }
 
 /* terme correct */
-rgt {
+rgt_qm, rgt {
   font-variant: small-caps slashed-zero;
   background-color:#83e700;
   padding: 0px 2px 0px 2px;
   color: black;
   font-weight: bold;
+}
+rgt_qm {
+  white-space: nowrap;
+}
+
+rgt_qm:before, rgt:before, rgt_qm:after, rgt:after {
+  display: inline-block;
+  position: relative;
+  margin: 2px;
+  white-space: nowrap;
+  content: " ";
+}
+rgt_qm:before {
+  content: "\00AB";
+}
+rgt_qm:after {
+  content: "\00BB";
 }
 
 .sepText {

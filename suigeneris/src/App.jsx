@@ -1,6 +1,6 @@
 'use client'
 import * as React from 'react';
-import { ThemeProvider, createTheme } from '@mui/material/styles';
+import { ThemeProvider, createTheme, styled } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import Container from '@mui/material/Container';
 import Stack from '@mui/material/Stack';
@@ -9,6 +9,8 @@ import TextField from '@mui/material/TextField';
 import Autocomplete from '@mui/material/Autocomplete';
 import Alert from '@mui/material/Alert';
 import AlertTitle from '@mui/material/AlertTitle';
+import Paper from '@mui/material/Paper';
+import Grid from '@mui/material/Grid';
 
 const filenames = import.meta.glob('./assets/*.json')
 
@@ -21,6 +23,12 @@ const darkTheme = createTheme({
     mode: 'dark',
   },
 });
+
+const Item = styled(Paper)(({ theme }) => ({
+  ...theme.typography.body1,
+  padding: theme.spacing(3),
+  color: theme.palette.text.secondary,
+}));
 
 function App() {
   // var files = [];
@@ -57,12 +65,22 @@ function App() {
             }}
           /> */}
           {/* <Masonry sx={{ width: 'unset', pt: 2 }} columns={2} spacing={3} sequential> */}
-            <Stack spacing={{ sm: 2 }}  useFlexGap flexWrap="wrap">
+            <Stack spacing={{ sm: 2 }} useFlexGap flexWrap="wrap">
                   {sgCards()}
             </Stack>
           {/* </Masonry> */}
         {/* </Box> */}
       </Container>
+      <Paper>
+        <Grid
+          container
+          direction="row"
+          justifyContent="flex-end"
+          alignItems="center"
+        >
+          <Item sx={{ mr: 4 }} xs={{p: 5}}>Sui Generis</Item>
+        </Grid>
+      </Paper>
     </ThemeProvider>
   );
 }
