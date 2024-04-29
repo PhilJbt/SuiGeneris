@@ -139,7 +139,7 @@ Error generating stack: `+i.message+`
         "titre": "Qualitatif",\r
         "wrong": "La conception de ce smartphone est qualitative.",\r
         "right": "La conception de ce smartphone est d'une grande qualité.",\r
-        "info": "Pour exprimer une qualité supérieur à la moyenne, l'on parlera de <rgt_qm>première qualité</rgt_qm>, de <rgt_qm>qualité de premier ordre</rgt_qm> ou tout simplement de quelque chose <rgt_qm>de qualité</rgt_qm>.",\r
+        "info": "Pour exprimer une qualité supérieure à la moyenne, l'on parlera de <rgt_qm>première qualité</rgt_qm>, de <rgt_qm>qualité de premier ordre</rgt_qm> ou tout simplement de quelque chose <rgt_qm>de qualité</rgt_qm>.",\r
         "add": "L'adjectif <i>qualitatif</i> se contente de décrire ce qui est lié à la qualité &mdash; en opposition au terme <i>quantitatif</i>, <ctx>qu'elle soit positive ou négative</ctx>.",\r
         "isnew": true\r
     },\r
