@@ -1,90 +1,100 @@
 {
-    "qualitatif": {
-        "date": "240429",
-        "titre": "Qualitatif",
-        "wrong": "La conception de ce smartphone est qualitative.",
-        "right": "La conception de ce smartphone est d'une grande qualité.",
-        "info": "Pour exprimer une qualité supérieure à la moyenne, l'on parlera de <rgt_qm>première qualité</rgt_qm>, de <rgt_qm>qualité de premier ordre</rgt_qm> ou tout simplement de quelque chose <rgt_qm>de qualité</rgt_qm>.",
-        "add": "L'adjectif <i>qualitatif</i> se contente de décrire ce qui est lié à la qualité &mdash; en opposition au terme <i>quantitatif</i>, <ctx>qu'elle soit positive ou négative</ctx>.",
-        "isnew": true
-    },
-    "moi_et": {
-        "date": "240422",
-        "titre": "Moi et [...]",
-        "wrong": "Moi et mes amis [...]",
-        "right": "Mes amis et moi [...]",
-        "info": "En français, la politesse veut que l'<ctx>on implique autrui en premier</ctx>. Dans une énumération de personnes, <rgt>le locuteur se cite donc toujours en dernier</rgt>.",
-        "isnew": false
-    },
-    "chafouin": {
-        "date": "240417",
-        "titre": "Chafouin",
-        "wrong": "Regarde comme il est chafouin, ta réflexion l'a agacé.",
-        "info": "<b>Chafouin</b> ne signifie pas être (ou sembler) de <wrg>mauvaise humeur</wrg> ou <wrg>grognon</wrg>. Il est un synonyme de <rgt_qm>fourbe</rgt_qm>, <rgt_qm>sournois</rgt_qm> et <rgt_qm>rusé</rgt_qm>.",
-        "isnew": false
-    },
-    "dates": {
-        "date": "240415",
-        "titre": "Les dates",
-        "wrong": "jj-mm-aaaa aaaa/mm/jj",
-        "right": "jj/mm/aaaa",
-        "info": "Comme bon nombre des pays de l'Europe de l'ouest (Royaume-Uni inclus), la <ctx>France</ctx> utilise le format <rgt>jj/mm/aaaa</rgt>.",
-        "divider": "Exemples d'autres formats",
-        "add": "Les Etats-Unis et le Canada : <wrg>mm-jj-aaaa</wrg><br/>Le Canada francophone : <wrg>jj-mm-aaaa</wrg><br/>La Chine et la Corée : <wrg>mm/jj/aaaa</wrg><br/>Hong Kong : <wrg>aaaa-mm-jj</wrg>",
-        "isnew": false
-    },
-    "nombres": {
-        "date": "240412",
-        "titre": "Les grands nombres",
-        "wrong": "1,000 ou 1.000",
-        "right": "1 000",
-        "info": "En <ctx>France</ctx>, le séparateur des milliers est l'<rgt_qm_qm>espace insécable</rgt_qm_qm>.",
-        "divider": "Exemples d'autres conventions",
-        "add": "En Belgique, c'est le point (ex: <wrg>1.000</wrg> pour un millier).<br/>Au Royaume-uni, c'est la virgule (ex: <wrg>1,000</wrg> pour un millier).",
-        "isnew": false
-    },
-    "digital": {
-        "date": "240412",
-        "titre": "Digital / Numérique",
-        "wrong": "digitale, digital",
-        "right": "numérique",
-        "info": "<rgt_qm>Numérique</rgt_qm> est le terme à privilégier pour parler du monde de l'informatique ou des nouvelles technologies.",
-        "add": "L'adjectif <wrg>digital</wrg> se réfère à ce qui appartient aux doigts. C'est un anglicisme utilisé par les agences de communication.",
-        "isnew": false
-    },
-    "chiffrer": {
-        "date": "240411",
-        "titre": "Crypter / Chiffrer",
-        "wrong": "Crypter, cryptage, encrypter, déencrypter",
-        "right": "Chiffrer, déchiffrer",
-        "info": "L'on préfère utiliser le terme <rgt_qm>chiffrer</rgt_qm> et ses déclinaisons.",
-        "add": "Le terme <wrg>crypter</wrg> renvoie à la notion d'obfusquer une donnée sans être en mesure de la déchiffrer par la suite. C'est la raison pour laquelle <wrg>cryptage</wrg> et ses dérivés sont généralement jugés impropres.<br/><wrg>Encrypter</wrg> et <wrg>déencrypter</wrg> sont des anglicismes.",
-        "isnew": false
-    },
-    "originel": {
-        "date": "240411",
-        "titre": "Original / Originel",
-        "wrong": "Il retrouvera son état original [...]",
-        "right": "Il retrouvera son état originel [...]",
-        "info": "Le terme <rgt_qm>originel</rgt_qm> qualifie ce qui vient de l'<ctx>origine</ctx>, de la <ctx>source</ctx>, qui est <ctx>premier</ctx>. Pour désigner une musique qui a été reprise et modifiée pour créer des remixes, on de parlera de la version <rgt_qm>originelle</rgt_qm>.",
-        "add": "<wrg>Original</wrg> s'oppose à la copie, à la reproduction ou à l'imitation, comme pour un tableau, ou un document administratif ou juridique. L'original est ce qui est authentique.",
-        "isnew": false
-    },
-    "billion": {
-        "date": "240410",
-        "titre": "Billion",
-        "wrong": "un billion = one billion",
-        "right": "10<sup>12</sup> = un billion = one trillion<br/>10<sup>18</sup> = un trillion = one quintillion",
-        "add" : "Dans la langue anglaise courante, un milliard (1 000 000 000) est généralement appelé one billion. Ce qui peut entraîner une confusion avec d'autres langues, dont le français, pour lesquelles un billion signifie un million de millions, soit mille milliards.",
-        "isnew": false
-    },
-    "monnaie": {
-        "date": "240410",
-        "titre": "Monnaie",
-        "wrong": "€20 ou 20€",
-        "right": "20 € ou 20 EUR",
-        "info": "En français, le code EUR (ou le signe €) se place après le chiffre, dont il est séparé par une espace.",
-        "add": "En anglais, en revanche, le signe se place avant le chiffre et sans espace : $20 ou US$20 pour spécifier le dollar américain.",
-        "isnew": false
-    }
+	"qualitatif": {
+		"date": "241123",
+		"titre": "Ce fût",
+		"wrong": "Ce fût un plaisir.",
+		"right": "Ce fut un plaisir.<br/>Qu’il fût un ancien camarade de classe n’y changera rien.",
+		"info": "<ctx>À la troisième personne du singulier du passé simple</ctx>, le verbe &raquo; <b>être</b> &raquo; transforme &raquo; <b>c'est</b> &raquo; en &raquo; <rgt_qm>ce fut</rgt_qm> &raquo;.",
+		"divider": "Moyen mnémotechnique",
+		"add": "On peut remplacer &laquo; <b>ce fut</b> &raquo; par &laquo; <rgt_qm>c’était</rgt_qm> &raquo; et &laquo; (ce) fût &raquo; par &laquo; (ce) soit &raquo;.",
+		"isnew": true
+	},
+	"qualitatif": {
+		"date": "240429",
+		"titre": "Qualitatif",
+		"wrong": "La conception de ce smartphone est qualitative.",
+		"right": "La conception de ce smartphone est d'une grande qualité.",
+		"info": "Pour exprimer une qualité supérieure à la moyenne, l'on parlera de <rgt_qm>première qualité</rgt_qm>, de <rgt_qm>qualité de premier ordre</rgt_qm> ou tout simplement de quelque chose <rgt_qm>de qualité</rgt_qm>.",
+		"add": "L'adjectif <i>qualitatif</i> se contente de décrire ce qui est lié à la qualité &mdash; en opposition au terme <i>quantitatif</i>, <ctx>qu'elle soit positive ou négative</ctx>.",
+		"isnew": false
+	},
+	"moi_et": {
+		"date": "240422",
+		"titre": "Moi et [...]",
+		"wrong": "Moi et mes amis [...]",
+		"right": "Mes amis et moi [...]",
+		"info": "En français, la politesse veut que l'<ctx>on implique autrui en premier</ctx>. Dans une énumération de personnes, <rgt>le locuteur se cite donc toujours en dernier</rgt>.",
+		"isnew": false
+	},
+	"chafouin": {
+		"date": "240417",
+		"titre": "Chafouin",
+		"wrong": "Regarde comme il est chafouin, ta réflexion l'a agacé.",
+		"info": "<b>Chafouin</b> ne signifie pas être (ou sembler) de <wrg>mauvaise humeur</wrg> ou <wrg>grognon</wrg>. Il est un synonyme de <rgt_qm>fourbe</rgt_qm>, <rgt_qm>sournois</rgt_qm> et <rgt_qm>rusé</rgt_qm>.",
+		"isnew": false
+	},
+	"dates": {
+		"date": "240415",
+		"titre": "Les dates",
+		"wrong": "jj-mm-aaaa aaaa/mm/jj",
+		"right": "jj/mm/aaaa",
+		"info": "Comme bon nombre des pays de l'Europe de l'ouest (Royaume-Uni inclus), la <ctx>France</ctx> utilise le format <rgt>jj/mm/aaaa</rgt>.",
+		"divider": "Exemples d'autres formats",
+		"add": "Les Etats-Unis et le Canada : <wrg>mm-jj-aaaa</wrg><br/>Le Canada francophone : <wrg>jj-mm-aaaa</wrg><br/>La Chine et la Corée : <wrg>mm/jj/aaaa</wrg><br/>Hong Kong : <wrg>aaaa-mm-jj</wrg>",
+		"isnew": false
+	},
+	"nombres": {
+		"date": "240412",
+		"titre": "Les grands nombres",
+		"wrong": "1,000 ou 1.000",
+		"right": "1 000",
+		"info": "En <ctx>France</ctx>, le séparateur des milliers est l'<rgt_qm_qm>espace insécable</rgt_qm_qm>.",
+		"divider": "Exemples d'autres conventions",
+		"add": "En Belgique, c'est le point (ex: <wrg>1.000</wrg> pour un millier).<br/>Au Royaume-uni, c'est la virgule (ex: <wrg>1,000</wrg> pour un millier).",
+		"isnew": false
+	},
+	"digital": {
+		"date": "240412",
+		"titre": "Digital / Numérique",
+		"wrong": "digitale, digital",
+		"right": "numérique",
+		"info": "<rgt_qm>Numérique</rgt_qm> est le terme à privilégier pour parler du monde de l'informatique ou des nouvelles technologies.",
+		"add": "L'adjectif <wrg>digital</wrg> se réfère à ce qui appartient aux doigts. C'est un anglicisme utilisé par les agences de communication.",
+		"isnew": false
+	},
+	"chiffrer": {
+		"date": "240411",
+		"titre": "Crypter / Chiffrer",
+		"wrong": "Crypter, cryptage, encrypter, déencrypter",
+		"right": "Chiffrer, déchiffrer",
+		"info": "L'on préfère utiliser le terme <rgt_qm>chiffrer</rgt_qm> et ses déclinaisons.",
+		"add": "Le terme <wrg>crypter</wrg> renvoie à la notion d'obfusquer une donnée sans être en mesure de la déchiffrer par la suite. C'est la raison pour laquelle <wrg>cryptage</wrg> et ses dérivés sont généralement jugés impropres.<br/><wrg>Encrypter</wrg> et <wrg>déencrypter</wrg> sont des anglicismes.",
+		"isnew": false
+	},
+	"originel": {
+		"date": "240411",
+		"titre": "Original / Originel",
+		"wrong": "Il retrouvera son état original [...]",
+		"right": "Il retrouvera son état originel [...]",
+		"info": "Le terme <rgt_qm>originel</rgt_qm> qualifie ce qui vient de l'<ctx>origine</ctx>, de la <ctx>source</ctx>, qui est <ctx>premier</ctx>. Pour désigner une musique qui a été reprise et modifiée pour créer des remixes, on de parlera de la version <rgt_qm>originelle</rgt_qm>.",
+		"add": "<wrg>Original</wrg> s'oppose à la copie, à la reproduction ou à l'imitation, comme pour un tableau, ou un document administratif ou juridique. L'original est ce qui est authentique.",
+		"isnew": false
+	},
+	"billion": {
+		"date": "240410",
+		"titre": "Billion",
+		"wrong": "un billion = one billion",
+		"right": "10<sup>12</sup> = un billion = one trillion<br/>10<sup>18</sup> = un trillion = one quintillion",
+		"add" : "Dans la langue anglaise courante, un milliard (1 000 000 000) est généralement appelé one billion. Ce qui peut entraîner une confusion avec d'autres langues, dont le français, pour lesquelles un billion signifie un million de millions, soit mille milliards.",
+		"isnew": false
+	},
+	"monnaie": {
+		"date": "240410",
+		"titre": "Monnaie",
+		"wrong": "€20 ou 20€",
+		"right": "20 € ou 20 EUR",
+		"info": "En français, le code EUR (ou le signe €) se place après le chiffre, dont il est séparé par une espace.",
+		"add": "En anglais, en revanche, le signe se place avant le chiffre et sans espace : $20 ou US$20 pour spécifier le dollar américain.",
+		"isnew": false
+	}
 }
