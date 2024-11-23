@@ -4,9 +4,9 @@
 		"titre": "Ce fût",
 		"wrong": "Ce fût un plaisir.",
 		"right": "Ce fut un plaisir.<br/>Qu’il fût un ancien camarade de classe n’y changera rien.",
-		"info": "<ctx>À la troisième personne du singulier du passé simple</ctx>, le verbe &laquo; <b>être</b> &raquo; transforme &laquo; <b>c'est</b> &raquo; en <rgt_qm>ce fut</rgt_qm>.",
+		"info": "<ctx>À la troisième personne du singulier du passé simple</ctx>, le verbe &raquo; <b>être</b> &raquo; transforme &raquo; <b>c'est</b> &raquo; en &raquo; <rgt_qm>ce fut</rgt_qm> &raquo;.",
 		"divider": "Moyen mnémotechnique",
-		"add": "On peut remplacer &laquo; <b>ce fut</b> &raquo; par <rgt_qm>c’était</rgt_qm> et &laquo; (ce) fût &raquo; par &laquo; (ce) soit &raquo;.",
+		"add": "On peut remplacer &laquo; <b>ce fut</b> &raquo; par &laquo; <rgt_qm>c’était</rgt_qm> &raquo; et &laquo; (ce) fût &raquo; par &laquo; (ce) soit &raquo;.",
 		"isnew": true
 	},
 	"qualitatif": {
